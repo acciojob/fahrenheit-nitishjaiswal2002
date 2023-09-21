@@ -1,7 +1,7 @@
 function toFahrenheit(celsius) {
  // Write your code here
 	const fahrenheit = (celsius * 9/5) + 32;
-  return fahrenheit;	
+  return fahrenheit.toFixed(2);
 }
 
 // Do not change the code below
